@@ -12,6 +12,7 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.3",
           "Prism.DryIoc.Forms": "8.1.97",
+          "Syncfusion.Xamarin.SfBusyIndicator": "27.1.50",
           "Xamarin.Essentials.Interfaces": "1.7.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "5.0.0.2291"
@@ -75,6 +76,38 @@
           "lib/netstandard2.0/Prism.Forms.dll": {
             "assemblyVersion": "8.1.97.5141",
             "fileVersion": "8.1.97.5141"
+          }
+        }
+      },
+      "Syncfusion.Licensing/27.1.50": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "27.1.50.0",
+            "fileVersion": "27.1.50.0"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/27.1.50": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.50",
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "27.1.50.0",
+            "fileVersion": "27.1.50.0"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfBusyIndicator/27.1.50": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "27.1.50",
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.dll": {
+            "assemblyVersion": "27.1.50.0",
+            "fileVersion": "27.1.50.0"
           }
         }
       },
@@ -283,6 +316,27 @@
       "sha512": "sha512-PZ11VwcKc1XNOhIAbdZXPwiRdG1QbxS3cV0JKdKJp914+LSGog71LbHg5hMY2C8AssfCe6wjG5wOvZaBV68nvw==",
       "path": "prism.forms/8.1.97",
       "hashPath": "prism.forms.8.1.97.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/27.1.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HdvKlcG2LflcPog6hObI9sTK3EaFrsBegkRkFVsn/aeftXU4wWFGQV1vuJjngZUcJDydAvIoz0XZ95FhZjDu9g==",
+      "path": "syncfusion.licensing/27.1.50",
+      "hashPath": "syncfusion.licensing.27.1.50.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/27.1.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+5PmbykgdKSWvSQ5l5wgfCWRKuSI9zJtFP28hXMIOLMpZt0GqIckPGUM1w5qRG+vU1bPD83Smwd6VYVZcxbmLA==",
+      "path": "syncfusion.xamarin.core/27.1.50",
+      "hashPath": "syncfusion.xamarin.core.27.1.50.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfBusyIndicator/27.1.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7v2hsk2MJ/GrcMy3jl5ZGObJt1Uo8KnHQXcAP7YPHHUoTsqv4z9gGMRnIt77otIawza0r2W+jQQQG+5/hliqA==",
+      "path": "syncfusion.xamarin.sfbusyindicator/27.1.50",
+      "hashPath": "syncfusion.xamarin.sfbusyindicator.27.1.50.nupkg.sha512"
     },
     "System.IO/4.3.0": {
       "type": "package",

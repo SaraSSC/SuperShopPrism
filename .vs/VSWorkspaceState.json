@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SuperShop.Prism",
+    "\\SuperShop.Prism.Android",
+    "\\SuperShop.Prism.Android\\Properties",
+    "\\SuperShop.Prism.iOS",
+    "\\SuperShop.Prism.iOS\\Properties",
+    "\\SuperShop.Prism\\ViewModels",
+    "\\SuperShop.Prism\\Views"
+  ],
+  "SelectedNode": "\\SuperShop.Prism.Android\\Properties\\AndroidManifest.xml",
+  "PreviewInSolutionExplorer": false
+}

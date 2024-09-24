@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638627974162373470
+_nugetassetstimestamp=638628089564410619
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\rog\onedrive\documentos\cinel-cet\11027-desenvolvimento_app_moveis\supershop.prism\supershop.prism.android\supershop.prism.android.csproj
+projectfullpath=c:\users\rog\onedrive\documentos\cinel-cet\supershop\gitprism\supershop.prism.android\supershop.prism.android.csproj

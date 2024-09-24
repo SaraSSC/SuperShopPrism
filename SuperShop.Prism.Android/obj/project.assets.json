@@ -81,6 +81,75 @@
           }
         }
       },
+      "Syncfusion.Licensing/27.1.50": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid90/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid90/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/27.1.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.50",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll": {},
+          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll": {},
+          "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfBusyIndicator/27.1.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "27.1.50",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
+            "related": ".xml"
+          },
+          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.Android.dll": {},
+          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
+            "related": ".xml"
+          },
+          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.Android.dll": {},
+          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfBusyIndicator.Android/27.1.50": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.50"
+        },
+        "compile": {
+          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1924,6 +1993,7 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "Prism.DryIoc.Forms": "8.1.97",
+          "Syncfusion.Xamarin.SfBusyIndicator": "27.1.50",
           "Xamarin.Essentials.Interfaces": "1.7.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "5.0.0.2291"
@@ -2063,6 +2133,110 @@
         "prism.forms.8.1.97.nupkg.sha512",
         "prism.forms.nuspec",
         "readme.txt"
+      ]
+    },
+    "Syncfusion.Licensing/27.1.50": {
+      "sha512": "HdvKlcG2LflcPog6hObI9sTK3EaFrsBegkRkFVsn/aeftXU4wWFGQV1vuJjngZUcJDydAvIoz0XZ95FhZjDu9g==",
+      "type": "package",
+      "path": "syncfusion.licensing/27.1.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net462/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.27.1.50.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/27.1.50": {
+      "sha512": "+5PmbykgdKSWvSQ5l5wgfCWRKuSI9zJtFP28hXMIOLMpZt0GqIckPGUM1w5qRG+vU1bPD83Smwd6VYVZcxbmLA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/27.1.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ClearButtonViewVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.27.1.50.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.SfBusyIndicator/27.1.50": {
+      "sha512": "C7v2hsk2MJ/GrcMy3jl5ZGObJt1Uo8KnHQXcAP7YPHHUoTsqv4z9gGMRnIt77otIawza0r2W+jQQQG+5/hliqA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfbusyindicator/27.1.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.xml",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfBusyIndicator.iOS.xml",
+        "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfBusyIndicator.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfBusyIndicator.XForms.xml",
+        "syncfusion.xamarin.sfbusyindicator.27.1.50.nupkg.sha512",
+        "syncfusion.xamarin.sfbusyindicator.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Xamarin.SfBusyIndicator.Android/27.1.50": {
+      "sha512": "MCIyFbqrO/tvLFAx7AQf530KxyOF2y4m+4YglAj26pUvh3YRBaOEgakCkQ1Ujpo2TGr8lWfugcRLVwLqp1o1qQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfbusyindicator.android/27.1.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfBusyIndicator.Android.xml",
+        "syncfusion.xamarin.sfbusyindicator.android.27.1.50.nupkg.sha512",
+        "syncfusion.xamarin.sfbusyindicator.android.nuspec",
+        "syncfusion_logo.png"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -3843,6 +4017,7 @@
     "MonoAndroid,Version=v10.0": [
       "Prism.DryIoc.Forms >= 8.1.97",
       "SuperShop.Prism >= 1.0.0",
+      "Syncfusion.Xamarin.SfBusyIndicator.Android >= 27.1.50",
       "Xamarin.Essentials.Interfaces >= 1.7.0",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
       "Xamarin.Forms >= 5.0.0.2291"
@@ -3855,11 +4030,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\11027-Desenvolvimento_APP_Moveis\\SuperShop.Prism\\SuperShop.Prism.Android\\SuperShop.Prism.Android.csproj",
+      "projectUniqueName": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\SuperShop\\GitPrism\\SuperShop.Prism.Android\\SuperShop.Prism.Android.csproj",
       "projectName": "SuperShop.Prism.Android",
-      "projectPath": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\11027-Desenvolvimento_APP_Moveis\\SuperShop.Prism\\SuperShop.Prism.Android\\SuperShop.Prism.Android.csproj",
+      "projectPath": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\SuperShop\\GitPrism\\SuperShop.Prism.Android\\SuperShop.Prism.Android.csproj",
       "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\11027-Desenvolvimento_APP_Moveis\\SuperShop.Prism\\SuperShop.Prism.Android\\obj\\",
+      "outputPath": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\SuperShop\\GitPrism\\SuperShop.Prism.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3880,8 +4055,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\11027-Desenvolvimento_APP_Moveis\\SuperShop.Prism\\SuperShop.Prism\\SuperShop.Prism.csproj": {
-              "projectPath": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\11027-Desenvolvimento_APP_Moveis\\SuperShop.Prism\\SuperShop.Prism\\SuperShop.Prism.csproj"
+            "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\SuperShop\\GitPrism\\SuperShop.Prism\\SuperShop.Prism.csproj": {
+              "projectPath": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\SuperShop\\GitPrism\\SuperShop.Prism\\SuperShop.Prism.csproj"
             }
           }
         }
@@ -3898,6 +4073,10 @@
           "Prism.DryIoc.Forms": {
             "target": "Package",
             "version": "[8.1.97, )"
+          },
+          "Syncfusion.Xamarin.SfBusyIndicator.Android": {
+            "target": "Package",
+            "version": "[27.1.50, )"
           },
           "Xamarin.Essentials.Interfaces": {
             "target": "Package",

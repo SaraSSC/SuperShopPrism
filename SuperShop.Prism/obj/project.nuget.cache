@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUiV9HkNqOo=",
+  "dgSpecHash": "t4aoVDpNG24=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\11027-Desenvolvimento_APP_Moveis\\SuperShop.Prism\\SuperShop.Prism\\SuperShop.Prism.csproj",
+  "projectFilePath": "C:\\Users\\ROG\\OneDrive\\Documentos\\CINEL-CET\\SuperShop\\GitPrism\\SuperShop.Prism\\SuperShop.Prism.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ROG\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
     "C:\\Users\\ROG\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -12,6 +12,9 @@
     "C:\\Users\\ROG\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\ROG\\.nuget\\packages\\prism.dryioc.forms\\8.1.97\\prism.dryioc.forms.8.1.97.nupkg.sha512",
     "C:\\Users\\ROG\\.nuget\\packages\\prism.forms\\8.1.97\\prism.forms.8.1.97.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\syncfusion.licensing\\27.1.50\\syncfusion.licensing.27.1.50.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\syncfusion.xamarin.core\\27.1.50\\syncfusion.xamarin.core.27.1.50.nupkg.sha512",
+    "C:\\Users\\ROG\\.nuget\\packages\\syncfusion.xamarin.sfbusyindicator\\27.1.50\\syncfusion.xamarin.sfbusyindicator.27.1.50.nupkg.sha512",
     "C:\\Users\\ROG\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\ROG\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\ROG\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",

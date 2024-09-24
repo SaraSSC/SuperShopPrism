@@ -2,6 +2,9 @@ FFImageLoading.Forms.Platform.dll
 FFImageLoading.Platform.dll
 FormsViewGroup.dll
 Prism.Forms.dll
+Syncfusion.Core.XForms.Android.dll
+Syncfusion.SfBusyIndicator.Android.dll
+Syncfusion.SfBusyIndicator.XForms.Android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll
