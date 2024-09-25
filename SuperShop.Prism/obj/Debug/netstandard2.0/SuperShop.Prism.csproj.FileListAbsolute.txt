@@ -16,7 +16,13 @@ C:\Users\ROG\OneDrive\Documentos\CINEL-CET\11027-Desenvolvimento_APP_Moveis\Supe
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\bin\Debug\netstandard2.0\SuperShop.Prism.deps.json
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\bin\Debug\netstandard2.0\SuperShop.Prism.dll
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\bin\Debug\netstandard2.0\SuperShop.Prism.pdb
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\bin\Debug\netstandard2.0\es\SuperShop.Prism.resources.dll
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\bin\Debug\netstandard2.0\pt\SuperShop.Prism.resources.dll
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.csproj.AssemblyReference.cache
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.Resources.Resource.resources
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.Resources.Resource.es.resources
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.Resources.Resource.pt.resources
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.csproj.GenerateResource.cache
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
@@ -28,5 +34,7 @@ C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\ob
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.csproj.CoreCompileInputs.cache
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.sourcelink.json
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\es\SuperShop.Prism.resources.dll
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\pt\SuperShop.Prism.resources.dll
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.dll
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.pdb

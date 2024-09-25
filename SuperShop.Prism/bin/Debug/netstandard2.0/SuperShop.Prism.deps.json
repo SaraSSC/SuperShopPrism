@@ -19,6 +19,14 @@
         },
         "runtime": {
           "SuperShop.Prism.dll": {}
+        },
+        "resources": {
+          "es/SuperShop.Prism.resources.dll": {
+            "locale": "es"
+          },
+          "pt/SuperShop.Prism.resources.dll": {
+            "locale": "pt"
+          }
         }
       },
       "DryIoc.dll/4.7.7": {

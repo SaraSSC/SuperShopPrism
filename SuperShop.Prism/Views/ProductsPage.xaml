@@ -5,18 +5,21 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:busyindicator="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
 	xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+	xmlns:i18n="clr-namespace:SuperShop.Prism.Helpers"
 	xmlns:prism="http://prismlibrary.com"
 	Title="{Binding Title}"
-	prism:ViewModelLocator.AutowireViewModel="True">
+	prism:ViewModelLocator.AutowireViewModel="True"
+	>
+
 	<AbsoluteLayout>
 		<StackLayout
-			Padding="5"
-			AbsoluteLayout.LayoutBounds="0,0,1,1"
-			AbsoluteLayout.LayoutFlags="All">
+            Padding="5"
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="All">
 			<SearchBar
-				Placeholder="Search product...."
-				SearchCommand="{Binding SearchCommand}"
-				Text="{Binding Search}" />
+                Placeholder="{i18n:Translate SearchProduct}"
+                SearchCommand="{Binding SearchCommand}"
+                Text="{Binding Search}" />
 			<CollectionView ItemsSource="{Binding Products}">
 				<CollectionView.ItemsLayout>
 					<GridItemsLayout Orientation="Vertical" />
@@ -33,32 +36,32 @@
 								<ColumnDefinition Width="Auto" />
 							</Grid.ColumnDefinitions>
 							<ffimageloading:CachedImage
-								Grid.Column="0"
-								Margin="5"
-								Aspect="AspectFill"
-								CacheDuration="50"
-								RetryCount="3"
-								RetryDelay="600"
-								Source="{Binding ImageFullPath}"
-								WidthRequest="100" />
+                                Grid.Column="0"
+                                Margin="5"
+                                Aspect="AspectFill"
+                                CacheDuration="50"
+                                RetryCount="3"
+                                RetryDelay="600"
+                                Source="{Binding ImageFullPath}"
+                                WidthRequest="100" />
 							<StackLayout Grid.Column="1" VerticalOptions="Center">
 								<Label
-									FontAttributes="Bold"
-									FontSize="Medium"
-									LineBreakMode="TailTruncation"
-									Text="{Binding Name}" />
+                                    FontAttributes="Bold"
+                                    FontSize="Medium"
+                                    LineBreakMode="TailTruncation"
+                                    Text="{Binding Name}" />
 								<Label FontAttributes="Italic" VerticalOptions="End">
 									<Label.FormattedText>
 										<FormattedString>
-											<Span Text="price" />
+											<Span Text="{i18n:Translate Price}" />
 											<Span Text="{Binding Price, StringFormat=': {0:C2}'}" />
 										</FormattedString>
 									</Label.FormattedText>
 								</Label>
 								<Label
-									FontAttributes="Italic"
-									Text="{Binding Stock, StringFormat='Stock: {0:N2}'}"
-									VerticalOptions="End" />
+                                    FontAttributes="Italic"
+                                    Text="{Binding Stock, StringFormat='Stock: {0:N2}'}"
+                                    VerticalOptions="End" />
 							</StackLayout>
 							<Image Grid.Column="2" Source="ic_more_vert" />
 						</Grid>
@@ -67,17 +70,16 @@
 			</CollectionView>
 		</StackLayout>
 		<busyindicator:SfBusyIndicator
-			Title="Loading"
-			AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
-			AbsoluteLayout.LayoutFlags="All"
-			AnimationType="Gear"
-			BackgroundColor="Gray"
-			HorizontalOptions="Center"
-			IsBusy="{Binding IsRunning}"
-			TextColor="White"
-			VerticalOptions="Center"
-			ViewBoxHeight="80"
-			ViewBoxWidth="80" />
+            Title="{i18n:Translate Loading}"
+            AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
+            AbsoluteLayout.LayoutFlags="All"
+            AnimationType="Gear"
+            BackgroundColor="Gray"
+            HorizontalOptions="Center"
+            IsBusy="{Binding IsRunning}"
+            TextColor="White"
+            VerticalOptions="Center"
+            ViewBoxHeight="80"
+            ViewBoxWidth="80" />
 	</AbsoluteLayout>
-
 </ContentPage>

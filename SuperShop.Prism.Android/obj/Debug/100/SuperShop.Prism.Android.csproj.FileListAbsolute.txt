@@ -697,6 +697,8 @@ C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.An
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\bin\Debug\com.companyname.appname-Signed.apk.idsig
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\bin\Debug\SuperShop.Prism.dll
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\bin\Debug\SuperShop.Prism.pdb
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\bin\Debug\es\SuperShop.Prism.resources.dll
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\bin\Debug\pt\SuperShop.Prism.resources.dll
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\MonoAndroid,Version=v10.0.AssemblyAttributes.cs
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\build.props
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\adb.props
@@ -761,6 +763,10 @@ C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.An
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\values\styles.xml
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\values\colors.xml
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\values\strings.xml
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable-hdpi\ic_more_vert.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable-mdpi\ic_more_vert.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable-xhdpi\ic_more_vert.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\ic_more_vert.png
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\uploadflags.txt
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\resolvedassemblies.hash
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\android\assets\DryIoc.dll
