@@ -6,19 +6,21 @@ using SuperShop.Prism.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace SuperShop.Prism.ViewModels
 {
     public class ProductsPageViewModel : ViewModelBase
     {
-        private readonly IApiService _apiService;
         private readonly INavigationService _navigationService;
+        private readonly IApiService _apiService;
         private ObservableCollection<ProductItemViewModel> _products;
-        private List<ProductItemViewModel> _myProducts;
         private bool _isRunning;
         private string _search;
+        private List<ProductResponse> _myProducts;
         private DelegateCommand _searchCommand;
 
         public ProductsPageViewModel(
@@ -31,6 +33,7 @@ namespace SuperShop.Prism.ViewModels
             LoadProductsAsync();
         }
 
+
         public DelegateCommand SearchCommand => _searchCommand ?? (_searchCommand = new DelegateCommand(ShowProducts));
 
         public string Search
@@ -42,7 +45,7 @@ namespace SuperShop.Prism.ViewModels
                 ShowProducts();
             }
         }
-        
+
         public bool IsRunning
         {
             get => _isRunning;
@@ -54,15 +57,22 @@ namespace SuperShop.Prism.ViewModels
             get => _products;
             set => SetProperty(ref _products, value);
         }
+
+
         private async void LoadProductsAsync()
         {
-            
 
             if (Connectivity.NetworkAccess != NetworkAccess.Internet)
             {
-                await App.Current.MainPage.DisplayAlert("Error", "Check the internet connection.", "Accept");
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await App.Current.MainPage.DisplayAlert(
+                        "Error",
+                        "Check internet connection", "Accept");
+                });
                 return;
             }
+
             IsRunning = true;
 
             string url = App.Current.Resources["UrlAPI"].ToString();
@@ -77,20 +87,51 @@ namespace SuperShop.Prism.ViewModels
                 return;
             }
 
-             _myProducts = (List<ProductItemViewModel>)response.Result;
+            _myProducts = (List<ProductResponse>)response.Result;
             ShowProducts();
         }
+
         private void ShowProducts()
         {
-            if(string.IsNullOrEmpty(Search))
+            if (string.IsNullOrEmpty(Search))
             {
-                Products = new ObservableCollection<ProductItemViewModel>(_myProducts);
+                Products = new ObservableCollection<ProductItemViewModel>(_myProducts.Select(p =>
+                new ProductItemViewModel(_navigationService)
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Price = p.Price,
+                    ImageUrl = p.ImageUrl,
+                    LastPurchase = p.LastPurchase,
+                    LastSale = p.LastSale,
+                    IsAvailable = p.IsAvailable,
+                    Stock = p.Stock,
+                    User = p.User,
+                    ImageFullPath = p.ImageFullPath
+                }).ToList());
             }
             else
             {
-                Products = new ObservableCollection<ProductItemViewModel>(_myProducts.FindAll(p => p.Name.ToLower().Contains(Search.ToLower())));
+                Products = new ObservableCollection<ProductItemViewModel>(
+                    _myProducts.Select(p =>
+                    new ProductItemViewModel(_navigationService)
+                    {
+                        Id = p.Id,
+                        Name = p.Name,
+                        Price = p.Price,
+                        ImageUrl = p.ImageUrl,
+                        LastPurchase = p.LastPurchase,
+                        LastSale = p.LastSale,
+                        IsAvailable = p.IsAvailable,
+                        Stock = p.Stock,
+                        User = p.User,
+                        ImageFullPath = p.ImageFullPath
+                    })
+                    .Where(p => p.Name.ToLower().Contains(Search.ToLower()))
+                    .ToList());
             }
         }
+
     }
 }
 
