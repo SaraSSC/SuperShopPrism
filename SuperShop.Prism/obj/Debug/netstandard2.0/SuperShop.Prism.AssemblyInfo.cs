@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuperShop.Prism")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d023292851b7a510705624ca45f8fc6da41db47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbec68f4060e283c9ca6f40431024a893530594a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuperShop.Prism")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuperShop.Prism")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

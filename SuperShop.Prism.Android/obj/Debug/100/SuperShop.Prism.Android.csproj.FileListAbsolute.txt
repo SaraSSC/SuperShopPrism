@@ -767,6 +767,13 @@ C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.An
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable-mdpi\ic_more_vert.png
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable-xhdpi\ic_more_vert.png
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\ic_more_vert.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\ic_action_menu.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\ic_card_giftcard.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\ic_exit_to_app.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\ic_history.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\ic_person.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\ic_shopping_cart.png
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\res\drawable\shop.png
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\uploadflags.txt
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\resolvedassemblies.hash
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism.Android\obj\Debug\100\android\assets\DryIoc.dll

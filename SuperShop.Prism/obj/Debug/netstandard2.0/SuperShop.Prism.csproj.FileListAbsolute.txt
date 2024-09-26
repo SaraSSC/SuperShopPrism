@@ -27,8 +27,12 @@ C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\ob
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\ModifyUserPage.xaml.g.cs
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\ProductDetailPage.xaml.g.cs
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\ProductsPage.xaml.g.cs
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\ShowCartPage.xaml.g.cs
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\ShowHistoryPage.xaml.g.cs
+C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\Views\SuperShopMasterDetailPage.xaml.g.cs
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.AssemblyInfoInputs.cache
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.AssemblyInfo.cs
 C:\Users\ROG\OneDrive\Documentos\CINEL-CET\SuperShop\GitPrism\SuperShop.Prism\obj\Debug\netstandard2.0\SuperShop.Prism.csproj.CoreCompileInputs.cache

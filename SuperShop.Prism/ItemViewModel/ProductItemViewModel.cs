@@ -18,9 +18,7 @@ namespace SuperShop.Prism.ItemViewModel
             _navigationService = navigationService;
         }
 
-        public DelegateCommand SelectProductCommand =>
-            _selectProductCommand ??
-            (_selectProductCommand = new DelegateCommand(SelectProductAsync));
+        public DelegateCommand SelectProductCommand =>_selectProductCommand ??(_selectProductCommand = new DelegateCommand(SelectProductAsync));
 
         private async void SelectProductAsync()
         {
