@@ -19,7 +19,7 @@ namespace SuperShop.Prism
 
         protected override async void OnInitialized()
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NDaF5cWWtCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWXZcdHVTR2BeVkBzWUI=");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR_LICENCE_KEY");
 
             InitializeComponent();
 
